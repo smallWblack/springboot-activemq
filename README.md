@@ -1,2 +1,3 @@
 # springboot-activemq
 springboot整合activeMq，消息队列
+springboot 整合其实比较简单，主要一点是有两个Template需要注意，第一个jmsTemplate，它可以获取activeMq原始对象，进行操作。第二个jmsMessagingTemplate，它其实是对jmsTemplate的封装，内部创建了一个jmsTemplate，
